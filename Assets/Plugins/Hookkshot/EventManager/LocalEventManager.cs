@@ -30,8 +30,7 @@ namespace KestCast.EventManager
 
             if (localEventManager == null)
             {
-                Debug.LogWarning("No local event manager was found on " + gameObject.name + ".");
-                return;
+                localEventManager = gameObject.AddComponent<LocalEventManager>();
             }
 
             localEventManager.StartListening(eventName, listener);
