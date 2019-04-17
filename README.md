@@ -8,12 +8,16 @@ A good example is to think of a UI system that is able to listen to when a playe
 
 ## Release
 
-**Current Version:** 1.1
+**Current Version:** 1.2
 
 ### Coming Changes
-We are working on adding generics of up to 4 parameters next.
+- Debugging event chains
 
 ### History
+**1.2**
+- Added base class for bother event manager to call on, centralizing event logic
+- Local Event Manager can no use generic based events
+
 **1.1**
 - Added Generics for previously developed methods
 - Made it so a LocalEventManager will be created if it is not on an object you are calling it on. (this makes development a bit faster)
