@@ -10,12 +10,15 @@ A good example is to think of a UI system that is able to listen to when a playe
 
 ## Release
 
-**Current Version:** 1.2
+**Current Version:** 1.3
 
 ### Coming Changes
 - Debugging event chains
 
 ### History
+**1.3**
+- Changed EventManager to be a static class as their was no reason for it to be an object in the game world.
+
 **1.2**
 - Added base class for both event managers to call on, centralizing event logic
 - Local Event Manager can no use generic based events
