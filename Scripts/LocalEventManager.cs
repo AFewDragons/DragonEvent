@@ -3,7 +3,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace KestCast.EventManager
+namespace AFewDragons.DragonEvent
 {
     /// <summary>
     /// An event manager to handle event locally to one gameobject

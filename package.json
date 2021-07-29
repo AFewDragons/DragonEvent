@@ -1,0 +1,16 @@
+{
+	"name": "com.afewdragons.dragonevent",
+	"description": "DragonEvent is an event messaging system for unity",
+	"version": "1.2",
+	"unity": "2018.1",
+	"displayName": "DragonEvent",
+	"author": {
+		"name": "A Few Dragons",
+		"email": "support@afewdragons.com",
+		"url": "https://afewdragons.com"
+	},
+	"repository": {
+		"url": "https://github.com/AFewDragons/DragonEvent.git",
+		"type": "git"
+	}
+}

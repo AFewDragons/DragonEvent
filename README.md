@@ -1,6 +1,8 @@
-# Unity Simple Messaging
+# DragonEvent
+DragonEvent is an event messaging system for unity.
 
-Unity Simple Messaging is an event messaging system for unity.
+[![Discord](https://img.shields.io/discord/686737735356252191.svg)](https://discord.gg/M7Gv6ER)
+[![GitHub issues](https://img.shields.io/github/issues/AFewDragons/GlobalEvent.svg)](https://github.com/AFewDragons/DragonEvent/issues)
 
 This type of system allows many components of your system to listen to types of events without having to know who the caller is. This is very helpful for decoupling your components and making smaller functioning code that doesnt have a stack of dependicies.
 
@@ -15,7 +17,7 @@ A good example is to think of a UI system that is able to listen to when a playe
 
 ### History
 **1.2**
-- Added base class for bother event manager to call on, centralizing event logic
+- Added base class for both event managers to call on, centralizing event logic
 - Local Event Manager can no use generic based events
 
 **1.1**
@@ -24,6 +26,27 @@ A good example is to think of a UI system that is able to listen to when a playe
 
 **1.0**
 - Added StartListening, StopListnening and TriggerEvent
+
+## Install
+
+### Unity Package Manager
+
+To install this project using the Unity Package Manager,
+add the following via the Package 
+
+```
+https://github.com/AFewDragons/DragonEvent.git
+```
+
+You will need to have Git installed and available in your system's PATH.
+
+### Asset Folder
+
+Simply copy/paste the source files into your assets folder.
+
+## Community
+
+Create issues for bugs or feature requests.
 
 ## Methods
 

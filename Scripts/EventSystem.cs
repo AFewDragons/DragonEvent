@@ -1,12 +1,11 @@
 ﻿// EventSystem.CS
 // Author: Chris Nyman / Keirron Stach
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using System;
 
-namespace KestCast.EventManager
+namespace AFewDragons.DragonEvent
 {
     /// <summary>
     /// Represent and event system
