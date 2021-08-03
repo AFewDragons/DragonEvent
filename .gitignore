@@ -37,6 +37,5 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-*.meta
 
 Logs/Packages-Update\.log
